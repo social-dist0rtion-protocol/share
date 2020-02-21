@@ -1,0 +1,35 @@
+html,
+body {
+  min-width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  background-color: tomato;
+  color: white;
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: #fbfbc9;
+}
+
+.reset:hover {
+  background-color: #eaea9d;
+}
+
+.comment {
+  width: 100%;
+  min-width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

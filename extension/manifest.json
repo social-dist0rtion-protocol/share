@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Sharing Dist0rtion Protocol",
+  "version": "0.1",
+  "description": "Submits cool stuff to our community",
+  "browser_action": {
+    "default_icon": "button/32.png",
+    "default_title": "Sharing Dist0rtion Protocol",
+    "default_popup": "popup/share.html"
+  },
+  "icons": {
+    "48": "img/logo-48.png"
+  },
+  "permissions": ["activeTab", "https://share.dist0rtion.com/*"],
+  "web_accessible_resources": ["img/*.png"]
+}
